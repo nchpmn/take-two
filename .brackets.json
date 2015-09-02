@@ -1,0 +1,14 @@
+{
+    "sass.enabled": false,
+    "path": {
+        "modules/bootstrap/scss/bootstrap.scss": {
+            "sass.enabled": true,
+            "sass.options": {
+                "outputDir": "../css/",
+                "includePaths": [],
+                "sourceComments": false,
+                "outputStyle": "compressed"
+            }
+        }
+    }
+}
