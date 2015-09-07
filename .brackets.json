@@ -1,5 +1,5 @@
 {
-    "sass.enabled": false,
+    "sass.enabled": true,
     "path": {
         "modules/bootstrap/scss/bootstrap.scss": {
             "sass.enabled": true,

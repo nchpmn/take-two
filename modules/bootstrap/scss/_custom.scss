@@ -1,0 +1,61 @@
+// Custom Variables to Override Bootstrap
+//
+// Let's get some overwriting going in this motherfucker!
+//
+// REMEMBER: You only need to include variables here that HAVE BEEN CHANGED
+
+
+// Table of Contents
+//
+// Colors
+// Options
+// Links
+// Grid columns
+// Fonts
+
+// General variable structure
+//
+// Variable format should follow the `$component-modifier-state-property` order.
+
+
+// Colors
+//
+// Grayscale and brand colors for use across Bootstrap.
+
+$brand-primary:             #f98937;
+$brand-primary-dark:        #d4742f;
+$brand-secondary:           #47a1e4;
+$brand-secondary-dark:      #3579ab;
+
+
+// Options
+//
+// Quickly modify global styling by enabling or disabling optional features.
+
+$enable-rounded:            false;
+$enable-transitions:        true;
+
+// Links
+//
+// Style anchor elements.
+
+$link-color:                 $brand-secondary-dark;
+$link-hover-color:           $brand-secondary;
+
+
+// Grid columns
+//
+// Set the number of columns and specify the width of the gutters.
+
+$grid-columns:               12;
+
+
+// Typography
+//
+// Font, line-height, and color for body text, headings, and more.
+// Here is where you'll add your @font-face declarations
+
+$font-family-sans-serif:     "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+$font-family-serif:          Georgia, "Times New Roman", Times, serif !default;
+$font-family-monospace:      Menlo, Monaco, Consolas, "Courier New", monospace !default;
+$font-family-base:           $font-family-sans-serif !default;
