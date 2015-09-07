@@ -9,3 +9,31 @@
 .jumbotron-title h1 {
   text-transform:uppercase;
 }
+
+
+#about {
+  display:table;
+  height:auto;
+  width:100%;
+  padding:0;
+  position:relative;
+}
+
+.side-image .image-wrap {
+  height:100%;
+  overflow:hidden;
+  padding:0;
+  position:absolute;
+  top:0;
+}
+
+.side-image .image-holder {
+  background-position:50% 50% !important;
+  background-size:cover;
+  background:url('http://themes.vebn.co/mnml/one/img/about.jpg') repeat scroll 50% 0% transparent;
+  height:100%;
+  position:absolute;
+  top:0;
+  width:100%;
+  z-index:0;
+}

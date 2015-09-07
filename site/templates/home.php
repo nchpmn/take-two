@@ -7,4 +7,13 @@
   </div>
 </header>
 
+
+<?php foreach($pages->visible() as $section): ?>
+<?php snippet('home-'.$section) ?>
+<?php endforeach ?>
+
+
+
+
+
 <?php snippet('footer') ?>
