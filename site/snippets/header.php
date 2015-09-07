@@ -10,7 +10,7 @@
   <meta name="keywords" content="<?php echo $site->keywords()->html() ?>">
 
   <?php echo css(array(
-    'modules/bootstrap/css/bootstrap-grid.css',
+    'modules/bootstrap/css/bootstrap.css',
     'assets/css/main.css'
   )) ?>
 
