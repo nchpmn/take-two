@@ -11,7 +11,7 @@
 
   <?php echo css(array(
     'modules/bootstrap/css/bootstrap.css',
-    'assets/css/main.css'
+    'assets/css/main.min.css'
   )) ?>
 
 </head>

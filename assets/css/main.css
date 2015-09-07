@@ -1,0 +1,11 @@
+.jumbotron-home {
+  height:100vh;
+}
+.jumbotron-title {
+  position:absolute;
+  top:74vh;
+  left:15vw;
+}
+.jumbotron-title h1 {
+  text-transform:uppercase;
+}
